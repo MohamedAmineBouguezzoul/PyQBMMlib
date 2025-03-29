@@ -23,7 +23,7 @@ def moment_fluxes(indices, wts_left, wts_right, xi_left, xi_right):
     wts_left:   weights on the left side,  size [ num_nodes ]
     wts_right:  weights on the right side, size [ num_nodes ]
     xi_left:    abscissas on the left side,  size [ num_internal_coords, num_nodes ]
-    xi_right:   abscissas on the right side, size [ num_internal_corods, num_nodes ]
+    xi_right:   abscissas on the right side, size [ num_internal_coords, num_nodes ]
     """
 
     num_moments = len(indices)

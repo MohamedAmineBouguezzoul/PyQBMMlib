@@ -10,6 +10,7 @@
 
 import sys
 sys.path.append("../utils/")
+print(sys.path)
 from inversion import *
 from pretty_print_util import *
 import numpy as np
